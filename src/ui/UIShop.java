@@ -12,15 +12,17 @@ public class UIShop {
     private static JTextField textField = new JTextField();
 
     public void init() {
-        JFrame frame = new JFrame("Test player");
+        JFrame frame = new JFrame("Tienda virtual PC3");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel context = new JPanel();
         context.setLayout(new BoxLayout(context, BoxLayout.X_AXIS));
         frame.getContentPane().add(context);
         JPanel buttons = new JPanel(new FlowLayout(FlowLayout.CENTER));
+        JPanel buttonAddProduct = new JPanel(new FlowLayout(FlowLayout.CENTER));
         JPanel products = new JPanel(new FlowLayout(FlowLayout.CENTER));
         context.add(products);
         context.add(buttons);
+        context.add(buttonAddProduct);
         JLabel l_text1 = new JLabel("producto 1");
         JLabel l_description = new JLabel("Palta");
         JLabel l_cantidad = new JLabel("10");
