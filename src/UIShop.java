@@ -54,8 +54,8 @@ class Show {
         jpanelmain = new JPanel();
         JLabel l_text1 = new JLabel("Metodo de pago 1");
         JLabel l_text2 = new JLabel("Metodo de pago 2"); 
-        JButton visa = new JButton("Visa");
-        JButton mastercard = new JButton("Mastercard");
+        JButton visa = new JButton("Paypal");
+        JButton mastercard = new JButton("CREDIT CARD");
         b_back = new JButton("Back");
         jpanelmain.add(l_text1);
         jpanelmain.add(visa);
