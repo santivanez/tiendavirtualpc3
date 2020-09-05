@@ -3,7 +3,7 @@ import model.Item;
 import model.Lacteos;
 import pattern.PayPalStrategy;
 import pattern.ShoppingCart;
-
+import UIShop;
 public class App {
 
     public static void main(String[] args) {
@@ -22,6 +22,8 @@ public class App {
         yogurt.addObserver(admi1);
 
         yogurt.venta();
+        UIShop ui = new UIShop();
+        ui.init();
 
     }
 }
