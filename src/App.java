@@ -11,10 +11,10 @@ public class App {
         ShoppingCart cart = new ShoppingCart();
 
         Item yogurt = new Lacteos("Yogurt", "Gloria", 2.4, "07/11/2020");
-        Item sandía = new Fruta("Sandia", 2.5, 3.5);
+        Item sandia = new Fruta("Sandia", 2.5, 3.5);
 
         cart.addItem(yogurt);
-        cart.addItem(sandía);
+        cart.addItem(sandia);
 
         cart.pay(new PayPalStrategy("correo@correo.com", "pwd"));
 
