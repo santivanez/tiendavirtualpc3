@@ -3,7 +3,8 @@ import model.Item;
 import model.Lacteos;
 import pattern.PayPalStrategy;
 import pattern.ShoppingCart;
-import UIShop;
+import ui.UIShop;
+
 public class App {
 
     public static void main(String[] args) {
