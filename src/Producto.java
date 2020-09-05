@@ -1,3 +1,6 @@
+import pattern.IObservable;
+import pattern.IObserver;
+
 import java.util.Set;
 import java.util.LinkedHashSet;
 

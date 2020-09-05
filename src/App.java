@@ -18,15 +18,10 @@ public class App {
 
         cart.pay(new PayPalStrategy("correo@correo.com", "pwd"));
 
-        Producto palta = new Producto(10);
-
         Admi admi1 = new Admi();
-        Admi admi2 = new Admi();
+        yogurt.addObserver(admi1);
 
-        palta.addObserver(admi1);
-        palta.addObserver(admi2);
-
-        palta.venta();
+        yogurt.venta();
 
     }
 }

@@ -7,7 +7,7 @@ public class Fruta extends Item {
     private double pricePerKg = 0.0;
 
     public Fruta(String name, double weight, double pricePerKg) {
-        super(weight * pricePerKg);
+        super(weight * pricePerKg, 20);
         this.name = name;
         this.weight = weight;
         this.pricePerKg = pricePerKg;

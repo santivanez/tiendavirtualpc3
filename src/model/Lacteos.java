@@ -7,11 +7,13 @@ public class Lacteos extends Item{
     private String marca;
 
     public Lacteos(String name, String marca, double price, String dateExpiration) {
-        super(price);
+        super(price, 10);
         this.name = name;
         this.dateExpiration = dateExpiration;
         this.marca = marca;
     }
+
+
 
     public String getName() {
         return name;
